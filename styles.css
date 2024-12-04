@@ -1,0 +1,137 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(152, 152, 152);
+    margin: 0;
+}
+
+header {
+    background: url("images1/festival.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.intro-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 16px solid #1a1a1a;
+    padding: 0 50px 0 50px;
+    text-wrap: nowrap;
+}
+
+.intro-container h1 {
+    font-size: 64px;
+}
+
+.intro-container p {
+    font-size: 28px;
+}
+
+.about-festival {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.about-festival h2{
+}
+
+.about-festival p {
+    font-size: 24px;
+    margin: 0;
+    padding: 32px;
+}
+
+#first-container {
+    background-color: rgb(152, 152, 152);
+    width: 700px;
+    margin: 100px auto;
+    padding: 24px;
+    border-radius: 20px;
+    position: relative;
+}
+#first-container img {
+    border-radius: 14px;
+    position: absolute;
+    right: -15%;
+    top: -25%;
+}
+
+#second-container {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align:right;
+}
+
+#second-container img {
+    border-radius: 14px;
+    position: absolute;
+    left: 30%;
+    top: 210%;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 92px;
+    height: 92px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.testimonial-card h3 {
+    font-size: 24px;
+}
+
+.testimonial-card h4 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+
+.navbar {
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    padding: 16px 0 16px 0;
+    background-color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: rgb(151, 151, 151);
+}
+
+.footer {
+    padding: 16px 0 16px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icons .fa {
+    font-size: 32px;
+}
